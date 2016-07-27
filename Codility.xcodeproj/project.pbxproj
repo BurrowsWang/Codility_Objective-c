@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07995E341D48EB160017452C /* CodilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E331D48EB160017452C /* CodilityTests.m */; };
+		07995E361D48EB160017452C /* libCodility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07995E211D48EAEB0017452C /* libCodility.a */; };
+		07995E3E1D48EC730017452C /* BinaryGap.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E3D1D48EC730017452C /* BinaryGap.m */; };
+		07995E3F1D48EC730017452C /* BinaryGap.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E3D1D48EC730017452C /* BinaryGap.m */; };
+		07995E421D48F0150017452C /* CyclicRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E411D48F0150017452C /* CyclicRotation.m */; };
+		07995E431D48F0150017452C /* CyclicRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E411D48F0150017452C /* CyclicRotation.m */; };
+		07995E461D48F3820017452C /* OddOccurrencesInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E451D48F3820017452C /* OddOccurrencesInArray.m */; };
+		07995E471D48F3820017452C /* OddOccurrencesInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E451D48F3820017452C /* OddOccurrencesInArray.m */; };
+		07995E4A1D48F54E0017452C /* TapeEquilibrium.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E491D48F54E0017452C /* TapeEquilibrium.m */; };
+		07995E4B1D48F54E0017452C /* TapeEquilibrium.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E491D48F54E0017452C /* TapeEquilibrium.m */; };
+		07995E4E1D48F7140017452C /* FrogJmp.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E4D1D48F7140017452C /* FrogJmp.m */; };
+		07995E4F1D48F7140017452C /* FrogJmp.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E4D1D48F7140017452C /* FrogJmp.m */; };
+		07995E521D48F7E30017452C /* PermMissingElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E511D48F7E30017452C /* PermMissingElem.m */; };
+		07995E531D48F7E30017452C /* PermMissingElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E511D48F7E30017452C /* PermMissingElem.m */; };
+		07995E561D48FA7B0017452C /* FrogRiverOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E551D48FA7B0017452C /* FrogRiverOne.m */; };
+		07995E571D48FA7B0017452C /* FrogRiverOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E551D48FA7B0017452C /* FrogRiverOne.m */; };
+		07995E5A1D48FBB50017452C /* PermCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E591D48FBB50017452C /* PermCheck.m */; };
+		07995E5B1D48FBB50017452C /* PermCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E591D48FBB50017452C /* PermCheck.m */; };
+		07995E5E1D48FD560017452C /* MissingInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E5D1D48FD560017452C /* MissingInteger.m */; };
+		07995E5F1D48FD560017452C /* MissingInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E5D1D48FD560017452C /* MissingInteger.m */; };
+		07995E621D4900B60017452C /* MaxCounters.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E611D4900B60017452C /* MaxCounters.m */; };
+		07995E631D4900B60017452C /* MaxCounters.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E611D4900B60017452C /* MaxCounters.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07995E371D48EB160017452C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07995E191D48EAEB0017452C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07995E201D48EAEB0017452C;
+			remoteInfo = Codility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07995E1F1D48EAEB0017452C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07995E211D48EAEB0017452C /* libCodility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCodility.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		07995E311D48EB160017452C /* CodilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07995E331D48EB160017452C /* CodilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodilityTests.m; sourceTree = "<group>"; };
+		07995E351D48EB160017452C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07995E3C1D48EC730017452C /* BinaryGap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryGap.h; sourceTree = "<group>"; };
+		07995E3D1D48EC730017452C /* BinaryGap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryGap.m; sourceTree = "<group>"; };
+		07995E401D48F0150017452C /* CyclicRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyclicRotation.h; sourceTree = "<group>"; };
+		07995E411D48F0150017452C /* CyclicRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyclicRotation.m; sourceTree = "<group>"; };
+		07995E441D48F3820017452C /* OddOccurrencesInArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OddOccurrencesInArray.h; sourceTree = "<group>"; };
+		07995E451D48F3820017452C /* OddOccurrencesInArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OddOccurrencesInArray.m; sourceTree = "<group>"; };
+		07995E481D48F54E0017452C /* TapeEquilibrium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapeEquilibrium.h; sourceTree = "<group>"; };
+		07995E491D48F54E0017452C /* TapeEquilibrium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapeEquilibrium.m; sourceTree = "<group>"; };
+		07995E4C1D48F7140017452C /* FrogJmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrogJmp.h; sourceTree = "<group>"; };
+		07995E4D1D48F7140017452C /* FrogJmp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrogJmp.m; sourceTree = "<group>"; };
+		07995E501D48F7E30017452C /* PermMissingElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermMissingElem.h; sourceTree = "<group>"; };
+		07995E511D48F7E30017452C /* PermMissingElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermMissingElem.m; sourceTree = "<group>"; };
+		07995E541D48FA7B0017452C /* FrogRiverOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrogRiverOne.h; sourceTree = "<group>"; };
+		07995E551D48FA7B0017452C /* FrogRiverOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrogRiverOne.m; sourceTree = "<group>"; };
+		07995E581D48FBB50017452C /* PermCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermCheck.h; sourceTree = "<group>"; };
+		07995E591D48FBB50017452C /* PermCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermCheck.m; sourceTree = "<group>"; };
+		07995E5C1D48FD560017452C /* MissingInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissingInteger.h; sourceTree = "<group>"; };
+		07995E5D1D48FD560017452C /* MissingInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MissingInteger.m; sourceTree = "<group>"; };
+		07995E601D4900B60017452C /* MaxCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxCounters.h; sourceTree = "<group>"; };
+		07995E611D4900B60017452C /* MaxCounters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxCounters.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07995E1E1D48EAEB0017452C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07995E2E1D48EB160017452C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07995E361D48EB160017452C /* libCodility.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07995E181D48EAEB0017452C = {
+			isa = PBXGroup;
+			children = (
+				07995E231D48EAEB0017452C /* Codility */,
+				07995E321D48EB160017452C /* CodilityTests */,
+				07995E221D48EAEB0017452C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07995E221D48EAEB0017452C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07995E211D48EAEB0017452C /* libCodility.a */,
+				07995E311D48EB160017452C /* CodilityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07995E231D48EAEB0017452C /* Codility */ = {
+			isa = PBXGroup;
+			children = (
+				07995E3C1D48EC730017452C /* BinaryGap.h */,
+				07995E3D1D48EC730017452C /* BinaryGap.m */,
+				07995E401D48F0150017452C /* CyclicRotation.h */,
+				07995E411D48F0150017452C /* CyclicRotation.m */,
+				07995E441D48F3820017452C /* OddOccurrencesInArray.h */,
+				07995E451D48F3820017452C /* OddOccurrencesInArray.m */,
+				07995E481D48F54E0017452C /* TapeEquilibrium.h */,
+				07995E491D48F54E0017452C /* TapeEquilibrium.m */,
+				07995E4C1D48F7140017452C /* FrogJmp.h */,
+				07995E4D1D48F7140017452C /* FrogJmp.m */,
+				07995E501D48F7E30017452C /* PermMissingElem.h */,
+				07995E511D48F7E30017452C /* PermMissingElem.m */,
+				07995E541D48FA7B0017452C /* FrogRiverOne.h */,
+				07995E551D48FA7B0017452C /* FrogRiverOne.m */,
+				07995E581D48FBB50017452C /* PermCheck.h */,
+				07995E591D48FBB50017452C /* PermCheck.m */,
+				07995E5C1D48FD560017452C /* MissingInteger.h */,
+				07995E5D1D48FD560017452C /* MissingInteger.m */,
+				07995E601D4900B60017452C /* MaxCounters.h */,
+				07995E611D4900B60017452C /* MaxCounters.m */,
+			);
+			path = Codility;
+			sourceTree = "<group>";
+		};
+		07995E321D48EB160017452C /* CodilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				07995E331D48EB160017452C /* CodilityTests.m */,
+				07995E351D48EB160017452C /* Info.plist */,
+			);
+			path = CodilityTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07995E201D48EAEB0017452C /* Codility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07995E2A1D48EAEB0017452C /* Build configuration list for PBXNativeTarget "Codility" */;
+			buildPhases = (
+				07995E1D1D48EAEB0017452C /* Sources */,
+				07995E1E1D48EAEB0017452C /* Frameworks */,
+				07995E1F1D48EAEB0017452C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Codility;
+			productName = Codility;
+			productReference = 07995E211D48EAEB0017452C /* libCodility.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		07995E301D48EB160017452C /* CodilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07995E391D48EB160017452C /* Build configuration list for PBXNativeTarget "CodilityTests" */;
+			buildPhases = (
+				07995E2D1D48EB160017452C /* Sources */,
+				07995E2E1D48EB160017452C /* Frameworks */,
+				07995E2F1D48EB160017452C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07995E381D48EB160017452C /* PBXTargetDependency */,
+			);
+			name = CodilityTests;
+			productName = CodilityTests;
+			productReference = 07995E311D48EB160017452C /* CodilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07995E191D48EAEB0017452C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = burrowswang;
+				TargetAttributes = {
+					07995E201D48EAEB0017452C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E7GK3N9747;
+					};
+					07995E301D48EB160017452C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E7GK3N9747;
+					};
+				};
+			};
+			buildConfigurationList = 07995E1C1D48EAEB0017452C /* Build configuration list for PBXProject "Codility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07995E181D48EAEB0017452C;
+			productRefGroup = 07995E221D48EAEB0017452C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07995E201D48EAEB0017452C /* Codility */,
+				07995E301D48EB160017452C /* CodilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07995E2F1D48EB160017452C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07995E1D1D48EAEB0017452C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07995E5A1D48FBB50017452C /* PermCheck.m in Sources */,
+				07995E4E1D48F7140017452C /* FrogJmp.m in Sources */,
+				07995E421D48F0150017452C /* CyclicRotation.m in Sources */,
+				07995E3E1D48EC730017452C /* BinaryGap.m in Sources */,
+				07995E4A1D48F54E0017452C /* TapeEquilibrium.m in Sources */,
+				07995E621D4900B60017452C /* MaxCounters.m in Sources */,
+				07995E561D48FA7B0017452C /* FrogRiverOne.m in Sources */,
+				07995E461D48F3820017452C /* OddOccurrencesInArray.m in Sources */,
+				07995E5E1D48FD560017452C /* MissingInteger.m in Sources */,
+				07995E521D48F7E30017452C /* PermMissingElem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07995E2D1D48EB160017452C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07995E341D48EB160017452C /* CodilityTests.m in Sources */,
+				07995E571D48FA7B0017452C /* FrogRiverOne.m in Sources */,
+				07995E631D4900B60017452C /* MaxCounters.m in Sources */,
+				07995E4B1D48F54E0017452C /* TapeEquilibrium.m in Sources */,
+				07995E5F1D48FD560017452C /* MissingInteger.m in Sources */,
+				07995E431D48F0150017452C /* CyclicRotation.m in Sources */,
+				07995E5B1D48FBB50017452C /* PermCheck.m in Sources */,
+				07995E531D48F7E30017452C /* PermMissingElem.m in Sources */,
+				07995E4F1D48F7140017452C /* FrogJmp.m in Sources */,
+				07995E3F1D48EC730017452C /* BinaryGap.m in Sources */,
+				07995E471D48F3820017452C /* OddOccurrencesInArray.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07995E381D48EB160017452C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07995E201D48EAEB0017452C /* Codility */;
+			targetProxy = 07995E371D48EB160017452C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07995E281D48EAEB0017452C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07995E291D48EAEB0017452C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07995E2B1D48EAEB0017452C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		07995E2C1D48EAEB0017452C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		07995E3A1D48EB160017452C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CodilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = burrows.wang.CodilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07995E3B1D48EB160017452C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CodilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = burrows.wang.CodilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07995E1C1D48EAEB0017452C /* Build configuration list for PBXProject "Codility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07995E281D48EAEB0017452C /* Debug */,
+				07995E291D48EAEB0017452C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07995E2A1D48EAEB0017452C /* Build configuration list for PBXNativeTarget "Codility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07995E2B1D48EAEB0017452C /* Debug */,
+				07995E2C1D48EAEB0017452C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07995E391D48EB160017452C /* Build configuration list for PBXNativeTarget "CodilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07995E3A1D48EB160017452C /* Debug */,
+				07995E3B1D48EB160017452C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07995E191D48EAEB0017452C /* Project object */;
+}
