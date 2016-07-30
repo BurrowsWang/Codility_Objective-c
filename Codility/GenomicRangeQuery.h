@@ -10,4 +10,6 @@
 
 @interface GenomicRangeQuery : NSObject
 
++ (NSMutableArray *)solution:(NSString *)S P:(NSMutableArray *)P Q:(NSMutableArray *)Q;
+
 @end

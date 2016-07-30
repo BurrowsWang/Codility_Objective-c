@@ -1,15 +1,15 @@
 //
-//  CountDiv.h
+//  Nesting.h
 //  Codility
 //
-//  Created by Burrows on 16/7/29.
+//  Created by Burrows on 16/7/30.
 //  Copyright © 2016年 burrowswang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface CountDiv : NSObject
+@interface Nesting : NSObject
 
-+ (int)solution:(int)A B:(int)B K:(int)K;
++ (int)solution:(NSString *)S;
 
 @end

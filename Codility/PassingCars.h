@@ -10,4 +10,6 @@
 
 @interface PassingCars : NSObject
 
++ (int)solution:(NSMutableArray *)A;
+
 @end

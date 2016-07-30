@@ -1,14 +1,14 @@
 //
-//  MinAvgTwoSlice.h
+//  EquiLeader.h
 //  Codility
 //
-//  Created by Burrows on 16/7/29.
+//  Created by Burrows on 16/7/30.
 //  Copyright © 2016年 burrowswang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface MinAvgTwoSlice : NSObject
+@interface EquiLeader : NSObject
 
 + (int)solution:(NSMutableArray *)A;
 

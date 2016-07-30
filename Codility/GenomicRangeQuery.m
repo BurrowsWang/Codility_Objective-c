@@ -111,11 +111,14 @@
         // get the minimum factor
         if ([ACountsHere[end + 1] intValue] - [ACountsHere[start] intValue] > 0) {
             [result addObject:@(1)];
-        } else if ([CCountsHere[end + 1] intValue] - [CCountsHere[start] intValue] > 0) {
+        }
+        else if ([CCountsHere[end + 1] intValue] - [CCountsHere[start] intValue] > 0) {
             [result addObject:@(2)];
-        } else if ([GCountsHere[end + 1] intValue] - [GCountsHere[start] intValue] > 0) {
+        }
+        else if ([GCountsHere[end + 1] intValue] - [GCountsHere[start] intValue] > 0) {
             [result addObject:@(3)];
-        } else if ([TCountsHere[end + 1] intValue] - [TCountsHere[start] intValue] > 0) {
+        }
+        else if ([TCountsHere[end + 1] intValue] - [TCountsHere[start] intValue] > 0) {
             [result addObject:@(4)];
         }
     }
