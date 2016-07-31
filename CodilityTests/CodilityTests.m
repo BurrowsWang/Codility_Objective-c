@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Dominator.h"
+#import "Peaks.h"
 
 @interface CodilityTests : XCTestCase
 
@@ -27,11 +27,11 @@
 }
 
 - (void)testMaxCounters {
-    NSMutableArray *A = [@[@(3), @(4), @(3), @(2), @(3), @(-1), @(3), @(3)] mutableCopy];
-    int expected = 7;
+    NSMutableArray *A = [@[@(1), @(2), @(3), @(4), @(3), @(4), @(1), @(2), @(3), @(4), @(6), @(2)] mutableCopy];
+    int expected = 3;
     
     [self measureBlock:^{
-        int result = [Dominator solution:A];
+        int result = [Peaks solution:A];
         XCTAssert(result == expected, @"Dominator error");
     }];
 }
