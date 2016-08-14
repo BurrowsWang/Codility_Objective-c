@@ -19,6 +19,8 @@
 		070C0E491D4DDF200088CE2F /* CountFactors.m in Sources */ = {isa = PBXBuildFile; fileRef = 070C0E471D4DDF200088CE2F /* CountFactors.m */; };
 		070C0E4C1D4DDFDE0088CE2F /* Peaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 070C0E4B1D4DDFDE0088CE2F /* Peaks.m */; };
 		070C0E4D1D4DDFDE0088CE2F /* Peaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 070C0E4B1D4DDFDE0088CE2F /* Peaks.m */; };
+		07249D321D4E491000B4A5F8 /* Flags.m in Sources */ = {isa = PBXBuildFile; fileRef = 07249D311D4E491000B4A5F8 /* Flags.m */; };
+		07249D331D4E491000B4A5F8 /* Flags.m in Sources */ = {isa = PBXBuildFile; fileRef = 07249D311D4E491000B4A5F8 /* Flags.m */; };
 		0794D5521D4B9C3900EE5F06 /* PassingCars.m in Sources */ = {isa = PBXBuildFile; fileRef = 0794D5511D4B9C3900EE5F06 /* PassingCars.m */; };
 		0794D5531D4B9C3900EE5F06 /* PassingCars.m in Sources */ = {isa = PBXBuildFile; fileRef = 0794D5511D4B9C3900EE5F06 /* PassingCars.m */; };
 		0794D5561D4B9D9C00EE5F06 /* CountDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = 0794D5551D4B9D9C00EE5F06 /* CountDiv.m */; };
@@ -49,6 +51,8 @@
 		07995E5F1D48FD560017452C /* MissingInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E5D1D48FD560017452C /* MissingInteger.m */; };
 		07995E621D4900B60017452C /* MaxCounters.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E611D4900B60017452C /* MaxCounters.m */; };
 		07995E631D4900B60017452C /* MaxCounters.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E611D4900B60017452C /* MaxCounters.m */; };
+		079BF42B1D50EE62007659D6 /* CountSemiprimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 079BF42A1D50EE62007659D6 /* CountSemiprimes.m */; };
+		079BF42C1D50EE62007659D6 /* CountSemiprimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 079BF42A1D50EE62007659D6 /* CountSemiprimes.m */; };
 		07E859591D4CD02200F61AB0 /* Distinct.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E859581D4CD02200F61AB0 /* Distinct.m */; };
 		07E8595A1D4CD02200F61AB0 /* Distinct.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E859581D4CD02200F61AB0 /* Distinct.m */; };
 		07E8595D1D4CD15900F61AB0 /* MaxProductOfThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8595C1D4CD15900F61AB0 /* MaxProductOfThree.m */; };
@@ -106,6 +110,8 @@
 		070C0E471D4DDF200088CE2F /* CountFactors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountFactors.m; sourceTree = "<group>"; };
 		070C0E4A1D4DDFDE0088CE2F /* Peaks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peaks.h; sourceTree = "<group>"; };
 		070C0E4B1D4DDFDE0088CE2F /* Peaks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peaks.m; sourceTree = "<group>"; };
+		07249D301D4E491000B4A5F8 /* Flags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flags.h; sourceTree = "<group>"; };
+		07249D311D4E491000B4A5F8 /* Flags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flags.m; sourceTree = "<group>"; };
 		0794D5501D4B9C3900EE5F06 /* PassingCars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassingCars.h; sourceTree = "<group>"; };
 		0794D5511D4B9C3900EE5F06 /* PassingCars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassingCars.m; sourceTree = "<group>"; };
 		0794D5541D4B9D9C00EE5F06 /* CountDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDiv.h; sourceTree = "<group>"; };
@@ -138,6 +144,8 @@
 		07995E5D1D48FD560017452C /* MissingInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MissingInteger.m; sourceTree = "<group>"; };
 		07995E601D4900B60017452C /* MaxCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxCounters.h; sourceTree = "<group>"; };
 		07995E611D4900B60017452C /* MaxCounters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxCounters.m; sourceTree = "<group>"; };
+		079BF4291D50EE62007659D6 /* CountSemiprimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountSemiprimes.h; sourceTree = "<group>"; };
+		079BF42A1D50EE62007659D6 /* CountSemiprimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountSemiprimes.m; sourceTree = "<group>"; };
 		07E859571D4CD02200F61AB0 /* Distinct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Distinct.h; sourceTree = "<group>"; };
 		07E859581D4CD02200F61AB0 /* Distinct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Distinct.m; sourceTree = "<group>"; };
 		07E8595B1D4CD15900F61AB0 /* MaxProductOfThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxProductOfThree.h; sourceTree = "<group>"; };
@@ -260,6 +268,10 @@
 				070C0E471D4DDF200088CE2F /* CountFactors.m */,
 				070C0E4A1D4DDFDE0088CE2F /* Peaks.h */,
 				070C0E4B1D4DDFDE0088CE2F /* Peaks.m */,
+				07249D301D4E491000B4A5F8 /* Flags.h */,
+				07249D311D4E491000B4A5F8 /* Flags.m */,
+				079BF4291D50EE62007659D6 /* CountSemiprimes.h */,
+				079BF42A1D50EE62007659D6 /* CountSemiprimes.m */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -373,6 +385,7 @@
 				07995E4E1D48F7140017452C /* FrogJmp.m in Sources */,
 				070C0E3C1D4DDB460088CE2F /* MaxProfit.m in Sources */,
 				07E859691D4CF01100F61AB0 /* Fish.m in Sources */,
+				07249D321D4E491000B4A5F8 /* Flags.m in Sources */,
 				07995E421D48F0150017452C /* CyclicRotation.m in Sources */,
 				07995E3E1D48EC730017452C /* BinaryGap.m in Sources */,
 				07995E4A1D48F54E0017452C /* TapeEquilibrium.m in Sources */,
@@ -381,6 +394,7 @@
 				07995E621D4900B60017452C /* MaxCounters.m in Sources */,
 				07995E561D48FA7B0017452C /* FrogRiverOne.m in Sources */,
 				07995E461D48F3820017452C /* OddOccurrencesInArray.m in Sources */,
+				079BF42B1D50EE62007659D6 /* CountSemiprimes.m in Sources */,
 				070C0E481D4DDF200088CE2F /* CountFactors.m in Sources */,
 				0794D55A1D4BA34100EE5F06 /* GenomicRangeQuery.m in Sources */,
 				07E859591D4CD02200F61AB0 /* Distinct.m in Sources */,
@@ -405,6 +419,7 @@
 				0794D55B1D4BA34100EE5F06 /* GenomicRangeQuery.m in Sources */,
 				07995E341D48EB160017452C /* CodilityTests.m in Sources */,
 				07E8597E1D4CFA3D00F61AB0 /* Dominator.m in Sources */,
+				079BF42C1D50EE62007659D6 /* CountSemiprimes.m in Sources */,
 				070C0E451D4DDE100088CE2F /* MinPerimeterRectangle.m in Sources */,
 				07995E571D48FA7B0017452C /* FrogRiverOne.m in Sources */,
 				07E8595E1D4CD15900F61AB0 /* MaxProductOfThree.m in Sources */,
@@ -415,6 +430,7 @@
 				07E8597A1D4CF72B00F61AB0 /* EquiLeader.m in Sources */,
 				070C0E391D4DD7030088CE2F /* MaxDoubleSliceSum.m in Sources */,
 				07995E4B1D48F54E0017452C /* TapeEquilibrium.m in Sources */,
+				07249D331D4E491000B4A5F8 /* Flags.m in Sources */,
 				07E8595A1D4CD02200F61AB0 /* Distinct.m in Sources */,
 				07995E5F1D48FD560017452C /* MissingInteger.m in Sources */,
 				07995E431D48F0150017452C /* CyclicRotation.m in Sources */,

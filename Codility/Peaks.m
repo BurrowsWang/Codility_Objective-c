@@ -102,11 +102,11 @@
     int peaks = 0;
     [peaksHere addObject:@(peaks)];
     
-    for (int i = 1; i < count - 1; i += 1) {
+    for (int i = 1; i < count - 1; i++) {
         int nextValue = [A[i + 1] intValue];
         
         if (curValue > preValue && curValue > nextValue) {
-            peaks += 1;
+            peaks++;
         }
         
         [peaksHere addObject:@(peaks)];
@@ -117,7 +117,7 @@
     [peaksHere addObject:@(peaks)];
     
     int result = 0;
-    for (int i = 1; i <= count / 2; i += 1) {
+    for (int i = 1; i <= count / 2; i++) {
         // equally divide
         if (count % i == 0) {
             int blocks = (int)count / i;
@@ -125,7 +125,7 @@
             // if peak has been found in every block
             BOOL allFound = YES;
             
-            for (int j = 1; j <= i; j += 1) {
+            for (int j = 1; j <= i; j++) {
                 int blockStart = (j - 1) * blocks;
                 int blockEnd = j * blocks;
                 

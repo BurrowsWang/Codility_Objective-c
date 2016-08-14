@@ -91,7 +91,7 @@
     }
     
     int result = 0;
-    for (int i = 1; i < count - 1; i += 1) {
+    for (int i = 1; i < count - 1; i++) {
         result = MAX(result, [maxEndHere[i - 1] intValue] + [maxStartHere[i + 1] intValue]);
     }
     

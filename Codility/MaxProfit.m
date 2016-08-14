@@ -59,12 +59,13 @@
     int minPrice = INT_MAX;
     int maxProfit = 0;
     
-    for (int i = 0; i < count; i += 1) {
+    for (int i = 0; i < count; i++) {
         int value = [A[i] intValue];
         
         if (value < minPrice) {
             minPrice = value;
-        } else {
+        }
+        else {
             int profit = value - minPrice;
             
             if (profit > maxProfit) {

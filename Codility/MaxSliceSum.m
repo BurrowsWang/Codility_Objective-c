@@ -50,7 +50,7 @@
     int maxSlice = INT_MIN;
     NSInteger count = [A count];
     
-    for (int i = 0; i < count; i += 1) {
+    for (int i = 0; i < count; i++) {
         int value = [A[i] intValue];
         
         maxSum = MAX(INT_MIN, maxSum + value);

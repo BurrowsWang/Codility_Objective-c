@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Peaks.h"
+#import "CountSemiprimes.h"
 
 @interface CodilityTests : XCTestCase
 
@@ -26,13 +26,15 @@
     [super tearDown];
 }
 
-- (void)testMaxCounters {
-    NSMutableArray *A = [@[@(1), @(2), @(3), @(4), @(3), @(4), @(1), @(2), @(3), @(4), @(6), @(2)] mutableCopy];
-    int expected = 3;
+- (void)testCountSemiprimes {
+    int N = 26;
+    NSMutableArray *P = [@[@(1), @(4), @(16)] mutableCopy];
+    NSMutableArray *Q = [@[@(26), @(10), @(20)] mutableCopy];
+    NSMutableArray *expected = [@[@(10), @(4), @(0)] mutableCopy];
     
     [self measureBlock:^{
-        int result = [Peaks solution:A];
-        XCTAssert(result == expected, @"Dominator error");
+        NSMutableArray *result = [CountSemiprimes solution:N P:P Q:Q];
+        XCTAssert([result isEqualToArray:expected], @"CountSemiprimes Error");
     }];
 }
 
