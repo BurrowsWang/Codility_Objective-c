@@ -53,6 +53,8 @@
 		07995E631D4900B60017452C /* MaxCounters.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E611D4900B60017452C /* MaxCounters.m */; };
 		079BF42B1D50EE62007659D6 /* CountSemiprimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 079BF42A1D50EE62007659D6 /* CountSemiprimes.m */; };
 		079BF42C1D50EE62007659D6 /* CountSemiprimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 079BF42A1D50EE62007659D6 /* CountSemiprimes.m */; };
+		07D5C7DB1D60ABD600F8C0A8 /* CountNonDivisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */; };
+		07D5C7DC1D60ABD600F8C0A8 /* CountNonDivisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */; };
 		07E859591D4CD02200F61AB0 /* Distinct.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E859581D4CD02200F61AB0 /* Distinct.m */; };
 		07E8595A1D4CD02200F61AB0 /* Distinct.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E859581D4CD02200F61AB0 /* Distinct.m */; };
 		07E8595D1D4CD15900F61AB0 /* MaxProductOfThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8595C1D4CD15900F61AB0 /* MaxProductOfThree.m */; };
@@ -146,6 +148,8 @@
 		07995E611D4900B60017452C /* MaxCounters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxCounters.m; sourceTree = "<group>"; };
 		079BF4291D50EE62007659D6 /* CountSemiprimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountSemiprimes.h; sourceTree = "<group>"; };
 		079BF42A1D50EE62007659D6 /* CountSemiprimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountSemiprimes.m; sourceTree = "<group>"; };
+		07D5C7D91D60ABD600F8C0A8 /* CountNonDivisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountNonDivisible.h; sourceTree = "<group>"; };
+		07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountNonDivisible.m; sourceTree = "<group>"; };
 		07E859571D4CD02200F61AB0 /* Distinct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Distinct.h; sourceTree = "<group>"; };
 		07E859581D4CD02200F61AB0 /* Distinct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Distinct.m; sourceTree = "<group>"; };
 		07E8595B1D4CD15900F61AB0 /* MaxProductOfThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxProductOfThree.h; sourceTree = "<group>"; };
@@ -272,6 +276,8 @@
 				07249D311D4E491000B4A5F8 /* Flags.m */,
 				079BF4291D50EE62007659D6 /* CountSemiprimes.h */,
 				079BF42A1D50EE62007659D6 /* CountSemiprimes.m */,
+				07D5C7D91D60ABD600F8C0A8 /* CountNonDivisible.h */,
+				07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -395,6 +401,7 @@
 				07995E561D48FA7B0017452C /* FrogRiverOne.m in Sources */,
 				07995E461D48F3820017452C /* OddOccurrencesInArray.m in Sources */,
 				079BF42B1D50EE62007659D6 /* CountSemiprimes.m in Sources */,
+				07D5C7DB1D60ABD600F8C0A8 /* CountNonDivisible.m in Sources */,
 				070C0E481D4DDF200088CE2F /* CountFactors.m in Sources */,
 				0794D55A1D4BA34100EE5F06 /* GenomicRangeQuery.m in Sources */,
 				07E859591D4CD02200F61AB0 /* Distinct.m in Sources */,
@@ -417,6 +424,7 @@
 				07E859721D4CF44500F61AB0 /* Nesting.m in Sources */,
 				0794D5571D4B9D9C00EE5F06 /* CountDiv.m in Sources */,
 				0794D55B1D4BA34100EE5F06 /* GenomicRangeQuery.m in Sources */,
+				07D5C7DC1D60ABD600F8C0A8 /* CountNonDivisible.m in Sources */,
 				07995E341D48EB160017452C /* CodilityTests.m in Sources */,
 				07E8597E1D4CFA3D00F61AB0 /* Dominator.m in Sources */,
 				079BF42C1D50EE62007659D6 /* CountSemiprimes.m in Sources */,

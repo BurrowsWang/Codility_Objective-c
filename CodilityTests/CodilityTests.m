@@ -9,6 +9,7 @@
 #import <XCTest/XCTest.h>
 
 #import "CountSemiprimes.h"
+#import "CountNonDivisible.h"
 
 @interface CodilityTests : XCTestCase
 
@@ -35,6 +36,16 @@
     [self measureBlock:^{
         NSMutableArray *result = [CountSemiprimes solution:N P:P Q:Q];
         XCTAssert([result isEqualToArray:expected], @"CountSemiprimes Error");
+    }];
+}
+
+- (void)testCountNonDivisible {
+    NSMutableArray *A = [@[@(3), @(1), @(2), @(3), @(6)] mutableCopy];
+    NSMutableArray *expected = [@[@(2), @(4), @(3), @(2), @(0)] mutableCopy];
+    
+    [self measureBlock:^{
+        NSMutableArray *result = [CountNonDivisible solution:A];
+        XCTAssert([result isEqualToArray:expected], @"CountNonDivisible Error");
     }];
 }
 
