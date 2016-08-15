@@ -55,6 +55,8 @@
 		079BF42C1D50EE62007659D6 /* CountSemiprimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 079BF42A1D50EE62007659D6 /* CountSemiprimes.m */; };
 		07D5C7DB1D60ABD600F8C0A8 /* CountNonDivisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */; };
 		07D5C7DC1D60ABD600F8C0A8 /* CountNonDivisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */; };
+		07DE96FD1D621BEA00CD4F56 /* ChocolatesByNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DE96FC1D621BEA00CD4F56 /* ChocolatesByNumbers.m */; };
+		07DE96FE1D621BEA00CD4F56 /* ChocolatesByNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DE96FC1D621BEA00CD4F56 /* ChocolatesByNumbers.m */; };
 		07E859591D4CD02200F61AB0 /* Distinct.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E859581D4CD02200F61AB0 /* Distinct.m */; };
 		07E8595A1D4CD02200F61AB0 /* Distinct.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E859581D4CD02200F61AB0 /* Distinct.m */; };
 		07E8595D1D4CD15900F61AB0 /* MaxProductOfThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8595C1D4CD15900F61AB0 /* MaxProductOfThree.m */; };
@@ -150,6 +152,8 @@
 		079BF42A1D50EE62007659D6 /* CountSemiprimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountSemiprimes.m; sourceTree = "<group>"; };
 		07D5C7D91D60ABD600F8C0A8 /* CountNonDivisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountNonDivisible.h; sourceTree = "<group>"; };
 		07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountNonDivisible.m; sourceTree = "<group>"; };
+		07DE96FB1D621BEA00CD4F56 /* ChocolatesByNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChocolatesByNumbers.h; sourceTree = "<group>"; };
+		07DE96FC1D621BEA00CD4F56 /* ChocolatesByNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChocolatesByNumbers.m; sourceTree = "<group>"; };
 		07E859571D4CD02200F61AB0 /* Distinct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Distinct.h; sourceTree = "<group>"; };
 		07E859581D4CD02200F61AB0 /* Distinct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Distinct.m; sourceTree = "<group>"; };
 		07E8595B1D4CD15900F61AB0 /* MaxProductOfThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxProductOfThree.h; sourceTree = "<group>"; };
@@ -278,6 +282,8 @@
 				079BF42A1D50EE62007659D6 /* CountSemiprimes.m */,
 				07D5C7D91D60ABD600F8C0A8 /* CountNonDivisible.h */,
 				07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */,
+				07DE96FB1D621BEA00CD4F56 /* ChocolatesByNumbers.h */,
+				07DE96FC1D621BEA00CD4F56 /* ChocolatesByNumbers.m */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -387,6 +393,7 @@
 				0794D55E1D4BA62900EE5F06 /* MinAvgTwoSlice.m in Sources */,
 				07E8595D1D4CD15900F61AB0 /* MaxProductOfThree.m in Sources */,
 				070C0E401D4DDC510088CE2F /* MaxSliceSum.m in Sources */,
+				07DE96FD1D621BEA00CD4F56 /* ChocolatesByNumbers.m in Sources */,
 				0794D5561D4B9D9C00EE5F06 /* CountDiv.m in Sources */,
 				07995E4E1D48F7140017452C /* FrogJmp.m in Sources */,
 				070C0E3C1D4DDB460088CE2F /* MaxProfit.m in Sources */,
@@ -452,6 +459,7 @@
 				07995E531D48F7E30017452C /* PermMissingElem.m in Sources */,
 				070C0E411D4DDC510088CE2F /* MaxSliceSum.m in Sources */,
 				07995E4F1D48F7140017452C /* FrogJmp.m in Sources */,
+				07DE96FE1D621BEA00CD4F56 /* ChocolatesByNumbers.m in Sources */,
 				070C0E3D1D4DDB460088CE2F /* MaxProfit.m in Sources */,
 				07995E3F1D48EC730017452C /* BinaryGap.m in Sources */,
 				07995E471D48F3820017452C /* OddOccurrencesInArray.m in Sources */,
