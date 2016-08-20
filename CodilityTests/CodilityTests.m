@@ -10,6 +10,7 @@
 
 #import "CountSemiprimes.h"
 #import "CountNonDivisible.h"
+#import "CommonPrimeDivisors.h"
 
 @interface CodilityTests : XCTestCase
 
@@ -46,6 +47,17 @@
     [self measureBlock:^{
         NSMutableArray *result = [CountNonDivisible solution:A];
         XCTAssert([result isEqualToArray:expected], @"CountNonDivisible Error");
+    }];
+}
+
+- (void)testCommonPrimeDivisors {
+    NSMutableArray *A = [@[@(15), @(10), @(9)] mutableCopy];
+    NSMutableArray *B = [@[@(75), @(30), @(5)] mutableCopy];
+    int expected = 1;
+    
+    [self measureBlock:^{
+        int result = [CommonPrimeDivisors solution:A B:B];
+        XCTAssert(result == expected, @"CommonPrimeDivisors Error");
     }];
 }
 

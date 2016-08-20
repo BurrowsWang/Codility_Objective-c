@@ -10,4 +10,6 @@
 
 @interface ChocolatesByNumbers : NSObject
 
++ (int)solution:(int)N M:(int)M;
+
 @end

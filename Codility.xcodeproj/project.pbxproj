@@ -53,6 +53,8 @@
 		07995E631D4900B60017452C /* MaxCounters.m in Sources */ = {isa = PBXBuildFile; fileRef = 07995E611D4900B60017452C /* MaxCounters.m */; };
 		079BF42B1D50EE62007659D6 /* CountSemiprimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 079BF42A1D50EE62007659D6 /* CountSemiprimes.m */; };
 		079BF42C1D50EE62007659D6 /* CountSemiprimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 079BF42A1D50EE62007659D6 /* CountSemiprimes.m */; };
+		07D128F71D64ACA800F6152A /* CommonPrimeDivisors.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D128F61D64ACA800F6152A /* CommonPrimeDivisors.m */; };
+		07D128F81D64ACA800F6152A /* CommonPrimeDivisors.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D128F61D64ACA800F6152A /* CommonPrimeDivisors.m */; };
 		07D5C7DB1D60ABD600F8C0A8 /* CountNonDivisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */; };
 		07D5C7DC1D60ABD600F8C0A8 /* CountNonDivisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */; };
 		07DE96FD1D621BEA00CD4F56 /* ChocolatesByNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DE96FC1D621BEA00CD4F56 /* ChocolatesByNumbers.m */; };
@@ -150,6 +152,8 @@
 		07995E611D4900B60017452C /* MaxCounters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxCounters.m; sourceTree = "<group>"; };
 		079BF4291D50EE62007659D6 /* CountSemiprimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountSemiprimes.h; sourceTree = "<group>"; };
 		079BF42A1D50EE62007659D6 /* CountSemiprimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountSemiprimes.m; sourceTree = "<group>"; };
+		07D128F51D64ACA800F6152A /* CommonPrimeDivisors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPrimeDivisors.h; sourceTree = "<group>"; };
+		07D128F61D64ACA800F6152A /* CommonPrimeDivisors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPrimeDivisors.m; sourceTree = "<group>"; };
 		07D5C7D91D60ABD600F8C0A8 /* CountNonDivisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountNonDivisible.h; sourceTree = "<group>"; };
 		07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountNonDivisible.m; sourceTree = "<group>"; };
 		07DE96FB1D621BEA00CD4F56 /* ChocolatesByNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChocolatesByNumbers.h; sourceTree = "<group>"; };
@@ -284,6 +288,8 @@
 				07D5C7DA1D60ABD600F8C0A8 /* CountNonDivisible.m */,
 				07DE96FB1D621BEA00CD4F56 /* ChocolatesByNumbers.h */,
 				07DE96FC1D621BEA00CD4F56 /* ChocolatesByNumbers.m */,
+				07D128F51D64ACA800F6152A /* CommonPrimeDivisors.h */,
+				07D128F61D64ACA800F6152A /* CommonPrimeDivisors.m */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -413,6 +419,7 @@
 				0794D55A1D4BA34100EE5F06 /* GenomicRangeQuery.m in Sources */,
 				07E859591D4CD02200F61AB0 /* Distinct.m in Sources */,
 				07995E5E1D48FD560017452C /* MissingInteger.m in Sources */,
+				07D128F71D64ACA800F6152A /* CommonPrimeDivisors.m in Sources */,
 				0794D5521D4B9C3900EE5F06 /* PassingCars.m in Sources */,
 				07995E521D48F7E30017452C /* PermMissingElem.m in Sources */,
 				070C0E4C1D4DDFDE0088CE2F /* Peaks.m in Sources */,
@@ -445,6 +452,7 @@
 				07E8597A1D4CF72B00F61AB0 /* EquiLeader.m in Sources */,
 				070C0E391D4DD7030088CE2F /* MaxDoubleSliceSum.m in Sources */,
 				07995E4B1D48F54E0017452C /* TapeEquilibrium.m in Sources */,
+				07D128F81D64ACA800F6152A /* CommonPrimeDivisors.m in Sources */,
 				07249D331D4E491000B4A5F8 /* Flags.m in Sources */,
 				07E8595A1D4CD02200F61AB0 /* Distinct.m in Sources */,
 				07995E5F1D48FD560017452C /* MissingInteger.m in Sources */,
