@@ -79,6 +79,8 @@
 		07E8597A1D4CF72B00F61AB0 /* EquiLeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E859781D4CF72B00F61AB0 /* EquiLeader.m */; };
 		07E8597D1D4CFA3D00F61AB0 /* Dominator.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8597C1D4CFA3D00F61AB0 /* Dominator.m */; };
 		07E8597E1D4CFA3D00F61AB0 /* Dominator.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8597C1D4CFA3D00F61AB0 /* Dominator.m */; };
+		BAF207971D7A96B900C87432 /* FibFrog.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF207961D7A96B900C87432 /* FibFrog.m */; };
+		BAF207981D7A96B900C87432 /* FibFrog.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF207961D7A96B900C87432 /* FibFrog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +180,8 @@
 		07E859781D4CF72B00F61AB0 /* EquiLeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiLeader.m; sourceTree = "<group>"; };
 		07E8597B1D4CFA3D00F61AB0 /* Dominator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dominator.h; sourceTree = "<group>"; };
 		07E8597C1D4CFA3D00F61AB0 /* Dominator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dominator.m; sourceTree = "<group>"; };
+		BAF207951D7A96B900C87432 /* FibFrog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FibFrog.h; sourceTree = "<group>"; };
+		BAF207961D7A96B900C87432 /* FibFrog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibFrog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +294,8 @@
 				07DE96FC1D621BEA00CD4F56 /* ChocolatesByNumbers.m */,
 				07D128F51D64ACA800F6152A /* CommonPrimeDivisors.h */,
 				07D128F61D64ACA800F6152A /* CommonPrimeDivisors.m */,
+				BAF207951D7A96B900C87432 /* FibFrog.h */,
+				BAF207961D7A96B900C87432 /* FibFrog.m */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -412,6 +418,7 @@
 				070C0E381D4DD7030088CE2F /* MaxDoubleSliceSum.m in Sources */,
 				07995E621D4900B60017452C /* MaxCounters.m in Sources */,
 				07995E561D48FA7B0017452C /* FrogRiverOne.m in Sources */,
+				BAF207971D7A96B900C87432 /* FibFrog.m in Sources */,
 				07995E461D48F3820017452C /* OddOccurrencesInArray.m in Sources */,
 				079BF42B1D50EE62007659D6 /* CountSemiprimes.m in Sources */,
 				07D5C7DB1D60ABD600F8C0A8 /* CountNonDivisible.m in Sources */,
@@ -461,6 +468,7 @@
 				07E859621D4CD46C00F61AB0 /* Triangle.m in Sources */,
 				07E8596E1D4CF1CC00F61AB0 /* Brackets.m in Sources */,
 				0794D55F1D4BA62900EE5F06 /* MinAvgTwoSlice.m in Sources */,
+				BAF207981D7A96B900C87432 /* FibFrog.m in Sources */,
 				07E859661D4CE91900F61AB0 /* NumberOfDiscIntersections.m in Sources */,
 				07995E5B1D48FBB50017452C /* PermCheck.m in Sources */,
 				07E8596A1D4CF01100F61AB0 /* Fish.m in Sources */,

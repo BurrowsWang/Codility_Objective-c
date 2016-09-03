@@ -11,6 +11,7 @@
 #import "CountSemiprimes.h"
 #import "CountNonDivisible.h"
 #import "CommonPrimeDivisors.h"
+#import "FibFrog.h"
 
 @interface CodilityTests : XCTestCase
 
@@ -58,6 +59,16 @@
     [self measureBlock:^{
         int result = [CommonPrimeDivisors solution:A B:B];
         XCTAssert(result == expected, @"CommonPrimeDivisors Error");
+    }];
+}
+
+- (void)testFibFrog {
+    NSMutableArray *A = [@[@(0), @(0), @(0), @(1), @(1), @(0), @(1), @(0), @(0), @(0), @(0)] mutableCopy];
+    int expected = 3;
+    
+    [self measureBlock:^{
+        int result = [FibFrog solution:A];
+        XCTAssert(result == expected, @"FibFrog Error");
     }];
 }
 
