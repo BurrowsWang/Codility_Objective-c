@@ -21,6 +21,8 @@
 		070C0E4D1D4DDFDE0088CE2F /* Peaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 070C0E4B1D4DDFDE0088CE2F /* Peaks.m */; };
 		07249D321D4E491000B4A5F8 /* Flags.m in Sources */ = {isa = PBXBuildFile; fileRef = 07249D311D4E491000B4A5F8 /* Flags.m */; };
 		07249D331D4E491000B4A5F8 /* Flags.m in Sources */ = {isa = PBXBuildFile; fileRef = 07249D311D4E491000B4A5F8 /* Flags.m */; };
+		075F5BD31D7DBD4400EFE748 /* Ladder.m in Sources */ = {isa = PBXBuildFile; fileRef = 075F5BD21D7DBD4400EFE748 /* Ladder.m */; };
+		075F5BD41D7DBD4400EFE748 /* Ladder.m in Sources */ = {isa = PBXBuildFile; fileRef = 075F5BD21D7DBD4400EFE748 /* Ladder.m */; };
 		0794D5521D4B9C3900EE5F06 /* PassingCars.m in Sources */ = {isa = PBXBuildFile; fileRef = 0794D5511D4B9C3900EE5F06 /* PassingCars.m */; };
 		0794D5531D4B9C3900EE5F06 /* PassingCars.m in Sources */ = {isa = PBXBuildFile; fileRef = 0794D5511D4B9C3900EE5F06 /* PassingCars.m */; };
 		0794D5561D4B9D9C00EE5F06 /* CountDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = 0794D5551D4B9D9C00EE5F06 /* CountDiv.m */; };
@@ -120,6 +122,8 @@
 		070C0E4B1D4DDFDE0088CE2F /* Peaks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peaks.m; sourceTree = "<group>"; };
 		07249D301D4E491000B4A5F8 /* Flags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flags.h; sourceTree = "<group>"; };
 		07249D311D4E491000B4A5F8 /* Flags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flags.m; sourceTree = "<group>"; };
+		075F5BD11D7DBD4400EFE748 /* Ladder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ladder.h; sourceTree = "<group>"; };
+		075F5BD21D7DBD4400EFE748 /* Ladder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ladder.m; sourceTree = "<group>"; };
 		0794D5501D4B9C3900EE5F06 /* PassingCars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassingCars.h; sourceTree = "<group>"; };
 		0794D5511D4B9C3900EE5F06 /* PassingCars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassingCars.m; sourceTree = "<group>"; };
 		0794D5541D4B9D9C00EE5F06 /* CountDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDiv.h; sourceTree = "<group>"; };
@@ -296,6 +300,8 @@
 				07D128F61D64ACA800F6152A /* CommonPrimeDivisors.m */,
 				BAF207951D7A96B900C87432 /* FibFrog.h */,
 				BAF207961D7A96B900C87432 /* FibFrog.m */,
+				075F5BD11D7DBD4400EFE748 /* Ladder.h */,
+				075F5BD21D7DBD4400EFE748 /* Ladder.m */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -415,6 +421,7 @@
 				07995E3E1D48EC730017452C /* BinaryGap.m in Sources */,
 				07995E4A1D48F54E0017452C /* TapeEquilibrium.m in Sources */,
 				07E859611D4CD46C00F61AB0 /* Triangle.m in Sources */,
+				075F5BD31D7DBD4400EFE748 /* Ladder.m in Sources */,
 				070C0E381D4DD7030088CE2F /* MaxDoubleSliceSum.m in Sources */,
 				07995E621D4900B60017452C /* MaxCounters.m in Sources */,
 				07995E561D48FA7B0017452C /* FrogRiverOne.m in Sources */,
@@ -451,6 +458,7 @@
 				079BF42C1D50EE62007659D6 /* CountSemiprimes.m in Sources */,
 				070C0E451D4DDE100088CE2F /* MinPerimeterRectangle.m in Sources */,
 				07995E571D48FA7B0017452C /* FrogRiverOne.m in Sources */,
+				075F5BD41D7DBD4400EFE748 /* Ladder.m in Sources */,
 				07E8595E1D4CD15900F61AB0 /* MaxProductOfThree.m in Sources */,
 				0794D5531D4B9C3900EE5F06 /* PassingCars.m in Sources */,
 				07995E631D4900B60017452C /* MaxCounters.m in Sources */,

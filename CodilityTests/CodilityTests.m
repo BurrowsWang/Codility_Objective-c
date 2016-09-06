@@ -12,6 +12,7 @@
 #import "CountNonDivisible.h"
 #import "CommonPrimeDivisors.h"
 #import "FibFrog.h"
+#import "Ladder.h"
 
 @interface CodilityTests : XCTestCase
 
@@ -69,6 +70,17 @@
     [self measureBlock:^{
         int result = [FibFrog solution:A];
         XCTAssert(result == expected, @"FibFrog Error");
+    }];
+}
+
+- (void)testLadder {
+    NSMutableArray *A = [@[@(4), @(4), @(5), @(5), @(1)] mutableCopy];
+    NSMutableArray *B = [@[@(3), @(2), @(4), @(3), @(1)] mutableCopy];
+    NSMutableArray *expected = [@[@(5), @(1), @(8), @(0), @(1)] mutableCopy];
+    
+    [self measureBlock:^{
+        NSMutableArray *result = [Ladder solution:A B:B];
+        XCTAssert([result isEqualToArray:expected], @"Ladder Error");
     }];
 }
 
